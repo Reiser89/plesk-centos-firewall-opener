@@ -19,6 +19,8 @@ do
 done
 
 firewall-cmd --reload
-echo "\nFollowing ports are open on your firewall:"
+
+echo "Following ports are open on your firewall:"
 firewall-cmd --list-ports
-echo "\nDone!"
+
+echo "Done!"
