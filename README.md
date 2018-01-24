@@ -26,7 +26,7 @@ Except:
 * 10155 (for a custom Plesk Migrator service performing miscellaneous)
 
 ## How can I open FTP passive ports?
-This script does not support passive ports right now.
+This script **does not** support passive ports right now.
 
 Read the Plesk article here:
 
