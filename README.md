@@ -15,7 +15,7 @@ Run it: *./fwplesk.sh*
 # Which ports will be opened?
 All listened Linux ports, recommended by plesk:
 https://support.plesk.com/hc/en-us/articles/213932745-Which-Ports-Need-To-Be-Opened-for-all-Plesk-Services-to-Work-with-a-Firewall-
-(except FTP passive ports right now)
+(except FTP passive ports and 10155 \[for a custom Plesk Migrator service performing miscellaneous\])
 
 # How can I open FTP passive ports?
 This script does not support passive ports right now.
