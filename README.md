@@ -14,7 +14,7 @@ I recommend to do this after the Plesk installation.
 3. Set the run-permissions:
     - ```chmod +x fwplesk.sh```
 4. Run it:
-    - ```./fwplesk.sh*```
+    - ```./fwplesk.sh```
 
 ## Which ports will be opened?
 All listened Linux ports, recommended by plesk:
