@@ -31,3 +31,12 @@ This script **does not** support passive ports right now.
 Read the Plesk article here:
 
 https://support.plesk.com/hc/en-us/articles/213902285
+
+## Can I add additional ports?
+Yes, TCP and UDP ports are stored separatly in an array. For example if you want to add port 1337 as UDP port, just edit the *udpports*-array from:
+
+```udpports=( 53 )```
+
+to
+
+```udpports=( 53 1337 )```
