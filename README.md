@@ -1,5 +1,5 @@
 # Plesk 17.5+ firewall opener for Centos/RHEL OS
-This script helps you to open all necessary ports to run Plesk 17.5+ on your Centos/RHEL server.
+This script helps you to open all necessary ports to run Plesk 17.5+ on strictly restricted Centos/RHEL servers (for example on vultr).
 
 ## Description
 Since I ran many Plesk test installations on my vultr servers, I created a script which fast opens all ports required by Plesk and its services on the strict Centos firewall.
