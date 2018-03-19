@@ -4,7 +4,7 @@ This script helps you to open all necessary ports to run Plesk 17.5+ on strictly
 ## Description
 Since I ran many Plesk test installations on my vultr servers, I created a script which fast opens all ports required by Plesk and its services on the strict Centos firewall.
 
-If you have troubles reaching services or the Plesk-Webinterface after installation on Centos, try to run this script.
+If you have troubles reaching services or the Plesk-Webinterface after installation on **Centos 7** or **RHEL 7**, try to run this script.
 
 I recommend to do this after the Plesk installation.
 
